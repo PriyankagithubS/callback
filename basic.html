@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Countdown</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <style>
+    body, html {
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f8f9fa;
+    }
+    .box {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 400px;
+      height: 200px;
+      border: 2px solid #007bff;
+      border-radius: 10px;
+      background-color: white;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    }
+    .countdown {
+      font-size: 3rem;
+      font-weight: bold;
+      color: #007bff;
+    }
+    .message {
+      color: green;
+    }
+  </style>
+</head>
+<body>
+  <div class="box">
+    <div id="countdown" class="countdown"></div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
